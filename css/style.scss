@@ -1,0 +1,50 @@
+$maincolor: #d3a91f;
+$darkcolor: #000;
+
+html, body, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    @extend html; 
+    font: 100% Helvetica, sans-serif;
+    color:  $maincolor;
+}
+ul{
+    list-style: none;
+    li{
+        margin: 0;
+        display: inline;
+        a{
+            text-decoration: none;
+            color: $maincolor;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background: lighten($maincolor, 10%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+.myContainers {
+    color: $darkcolor;
+}
+div, footer, .myContainers{
+    background: lighten(grayscale($darkcolor), 49%);
+    padding: 5%;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20%
+}

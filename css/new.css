@@ -1,0 +1,38 @@
+html, body, body, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #d3a91f; }
+
+ul {
+  list-style: none; }
+  ul li {
+    margin: 0;
+    display: inline; }
+    ul li a {
+      text-decoration: none;
+      color: #d3a91f; }
+      ul li a:hover {
+        text-decoration: underline; }
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #e3be42;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; }
+
+.myContainers {
+  color: #000; }
+
+div, footer, .myContainers {
+  background: #7d7d7d;
+  padding: 5%; }
+
+footer {
+  padding: 20px;
+  margin-top: 20%; }

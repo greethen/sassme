@@ -1,0 +1,22 @@
+{
+  "name": "sassme",
+  "version": "1.0.0",
+  "description": "1. Download the css folder and the index html file or... - Start by forking this repo to make it your own.  - Then clone it. 2. look at the css file 3. make some reverse engineering and construct the scss file to compile the resulting css file  ## HINTS - only two colours and two mesures are defined... - Use variables, nesting, parenting, partials and operations  - Place .scss files in a seperate folder",
+  "main": "index.js",
+  "scripts": {
+    "my-sass": "node-sass css/style.scss css/new.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greethen/sassme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greethen/sassme/issues"
+  },
+  "homepage": "https://github.com/greethen/sassme#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
